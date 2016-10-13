@@ -1,5 +1,5 @@
-module CaesarCipher
-	def encode(word, key)
+module Cipher
+	def Cipher.encode(word, key)
 
 	    encoded_word = ''
 
@@ -33,5 +33,4 @@ module CaesarCipher
 	    encoded_word 
 	end
 
-	puts encode("What a string!", 5)
 end
